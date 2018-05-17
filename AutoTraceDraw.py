@@ -1,11 +1,12 @@
-# 数据格式要求
+
+#从AutoDrawData.txt文件读取数据数据绘制图形文件格式如下：
 # #号开头为注释文字
 # A,B,C,D,E,F   :
 #A =0 左转 =1 右转
 #B 转的角度
 #C =300  前进300像素距离
-#D,E,F RGB三种颜色
-import turtle as t
+#D,E,F RGB三种颜色''''
+# import turtle as t
 t.title("自动绘制")
 t.setup(1024,768)
 t.pencolor("red")
