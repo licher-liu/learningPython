@@ -1,3 +1,4 @@
+"""绘制一棵树"""
 import turtle
 import random
 from turtle import *
