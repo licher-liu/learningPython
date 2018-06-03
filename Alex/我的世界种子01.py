@@ -1,0 +1,43 @@
+import turtle as tt
+xiaochang=100
+zhongchang=200
+dachang=300
+juli=50
+jiaodu=90
+tt.penup()
+tt.fd(juli)
+tt.pendown()
+tt.fd(xiaochang)
+tt.right(jiaodu)
+tt.fd(xiaochang)
+tt.right(jiaodu)
+tt.fd(xiaochang)
+tt.right(jiaodu)
+tt.fd(xiaochang)
+tt.penup()
+tt.fd(50)#这里没用变量
+tt.left(90)#这里没用变量
+tt.fd(juli)
+tt.pendown()
+tt.left(jiaodu)
+tt.fd(zhongchang)
+tt.left(jiaodu)
+tt.fd(zhongchang)
+tt.left(jiaodu)
+tt.fd(zhongchang)
+tt.left(jiaodu)
+tt.fd(zhongchang)
+tt.penup()
+tt.fd(50) #这里没用变量
+tt.right(90) #这里没用变量
+tt.fd(juli)
+tt.pendown()
+tt.right(jiaodu)
+tt.fd(dachang)
+tt.right(jiaodu)
+tt.fd(dachang)
+tt.right(jiaodu)
+tt.fd(dachang)
+tt.right(jiaodu)
+tt.fd(dachang)
+tt.done()
